@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An instagram media parser that bypasses the API.">
+    <title>Instagram Media Grabber</title>
+  	<link rel = "stylesheet" type = "text/css" href = "../node_modules/normalize.css/normalize.css">
+  	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<script src="jquery-3.1.0.min.js"></script>
+	<script src="instagram-media.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+			<form id = "infoForm">
+				<input type = "text" id="username" value="Username"> <br />
+				<div id="options">
+				<input type = "checkbox" id = "likes"><label for = "likes">Likes</label> &nbsp
+				<input type = "checkbox" id = "captions"><label for = "captions">Captions</label> &nbsp
+			</div>
+				<input type = "submit" value = "Go" id = "go">
+			</form>
+
+	<div id="media"></div>
+	</div>
+
+</body>
+</html>

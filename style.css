@@ -1,0 +1,94 @@
+body {
+	font-family:  "Arimo", "Lucida Sans Unicode", "Open Sans","Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+form {
+	text-align: center;
+	padding: 15px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+input {
+	padding: 5px;
+	outline: none;
+	text-align: center;
+	color: #414141;
+	border: 1px solid #cfcfcf;
+	font-size: 15px;
+	width: 50%;
+}
+
+#media {
+	display: flex;
+	justify-content: center;
+	align items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.photo {
+	width: 300px;
+	height: 300px;
+}
+
+.cell {
+	padding: 10px;
+	width: 300px;
+	font-size: .9em;
+}
+
+#go {
+	background: #4691AD;
+	border: none;
+	color: #fff;
+	padding: 4px 7px 4px 7px;
+	width: 100px;
+	height: 30px;
+	font-size: 10pt;
+	cursor: pointer;
+}
+
+#go:hover {
+	background: #6BDBF7;
+	border: 1px solid white;
+}
+
+.caption {
+	font-weight: lighter;
+}
+
+label {
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+}
+
+label {
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type='checkbox'] + label {
+	display: inline-block;
+
+}
+
+input[type='checkbox']:checked + label{
+	background: #C4854B;
+}
+
+label:hover {
+	background: #C4A07E;
+}
+
+#options {
+	display: block;
+	width: 50%;
+	padding-left: 33px;
+	text-align: center;
+	margin: 0 auto;
+}
