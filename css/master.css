@@ -1,0 +1,60 @@
+html {
+	font-family: 'Inconsolata', monospace;
+}
+
+
+
+/* FORM */
+
+form {
+	text-align: center;
+	line-height: 2em;
+}
+
+#go {
+	border: 1px solid black;
+	background: white;
+	padding: 5px;
+	width: 30px;
+}
+
+#go:hover {
+	background: lightgray;
+}
+
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked + label {
+	background: lightgray;
+}
+
+input[type="text"] {
+	text-align: center;
+	border: 1px solid black;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.5em;
+}
+
+
+
+
+/* MEDIA DIV */
+
+#media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cell {
+	margin: 5%;
+	text-align: center;
+}
+
+.cell > p {
+	margin: 0;
+}
